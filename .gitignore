@@ -1,0 +1,29 @@
+# CloudGuard Lite — .gitignore
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local
+
+# Python
+backend/__pycache__/
+backend/engine/__pycache__/
+backend/routers/__pycache__/
+backend/uploads/
+backend/.env
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+env/
+Test_configs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
